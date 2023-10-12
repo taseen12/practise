@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    color : red;
+    border-bottom:6px rgb(151, 227, 151);
+  }
+  .navigation li{
+    margin-right: 70px;
+  }
+  .container{
+    margin: 10px;
+  }
+  .elements{
+    margin: 10px;
+    display: flex;
+  }
+  .elements img{
+    width: 200px;
+    height: 1oopx;
+    padding-right: 20px;
+    border-radius: 50%;}
+
+  .elements p{
+    padding-left: 100px;
+}
+.tas{
+    padding-left: 50 px;
+    display: grid;
+    grid-template-columns: 1fr 1 fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+}
